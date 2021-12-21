@@ -1,3 +1,5 @@
 if vmware not running due to kernal update problem then use this
 
 command:- git clone https://github.com/vijay2040raj/error-pedia/blob/a6c9f568ea011969ec8c64c4380f1e0e4d13dc7a/vmware_install_kernal.sh
+
+after clone or download just run
