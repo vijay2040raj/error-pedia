@@ -1,0 +1,9 @@
+tldr -u
+
+
+still problem not solved then see reference
+1.) first solve locate problem => see repo or visit https://askubuntu.com/questions/800347/cant-locate-a-directory-using-locate
+2.) see https://github.com/tldr-pages/tldr/issues/1673
+3.) https://github.com/tldr-pages/tldr/issues/527#issuecomment-178266635
+4.) https://github.com/tldr-pages/tldr/issues/527
+5.) https://github.com/tldr-pages/tldr-node-client/issues/332
