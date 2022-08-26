@@ -1,0 +1,8 @@
+sudo updatedb && locate -e bench-repo
+ls -l $(locate -e bench-repo)
+
+
+other issue may be solved => tldr
+
+reference
+https://askubuntu.com/questions/800347/cant-locate-a-directory-using-locate
