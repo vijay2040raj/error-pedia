@@ -1,5 +1,5 @@
 if vmware not running due to kernal update problem then use this
 
-command:- wget https://raw.githubusercontent.com/vijay2040raj/error-pedia/linux/vmware/install_kernal.sh
+command:- wget https://raw.githubusercontent.com/vijay2040raj/error-pedia/linux/vmware/t.sh
 
 after clone or download just run
