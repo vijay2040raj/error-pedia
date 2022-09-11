@@ -1,0 +1,16 @@
+error :- error:0A00018E:SSL routines::ca md too weak
+
+error look like
+2022-09-11 21:13:57 WARNING: Compression for receiving enabled. Compression has been used in the past to break encryption. Sent packets are not compressed unless "allow-compression yes" is also set.
+2022-09-11 21:13:57 DEPRECATED OPTION: --cipher set to 'AES-128-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-128-CBC' to --data-ciphers or change --cipher 'AES-128-CBC' to --data-ciphers-fallback 'AES-128-CBC' to silence this warning.
+2022-09-11 21:13:57 OpenVPN 2.5.7 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jul  5 2022
+2022-09-11 21:13:57 library versions: OpenSSL 3.0.5 5 Jul 2022, LZO 2.10
+2022-09-11 21:13:57 OpenSSL: error:0A00018E:SSL routines::ca md too weak
+2022-09-11 21:13:57 Cannot load inline certificate file
+2022-09-11 21:13:57 Exiting due to fatal error
+
+
+solution :- add in file(ovpn) at spacific location
+tls-cipher "DEFAULT:@SECLEVEL=0"
+
+references :- https://superuser.com/questions/1737052/openssl-error0a00018essl-routinesca-md-too-weak?answertab=scoredesc#tab-top
