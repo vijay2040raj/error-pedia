@@ -1,0 +1,5 @@
+error:- window not working properly (kwin11)
+cause:- sometimes dependency are removed 
+
+solution:- sudo apt install kde-plasma-desktop
+solution full package installation 
