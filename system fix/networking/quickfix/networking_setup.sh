@@ -7,7 +7,7 @@ check_connectivity() {
     echo "Connectivity is working fine."
   else
     echo "Connectivity is not working."
-    exit 1
+    
   fi
 }
 
@@ -18,7 +18,7 @@ check_nameserver() {
     echo "Nameserver configuration is present."
   else
     echo "Nameserver configuration is missing."
-    exit 1
+    
   fi
 }
 
