@@ -21,7 +21,7 @@ To fix the VMware kernel update problem, follow these steps:
 2. Run the second installation script by executing the following command:
 
    ```shell
-   curl -s https://raw.githubusercontent.com/vijay2040raj/error-pedia/linux/vmware/t.sh | sudo sh
+   curl -s https://raw.githubusercontent.com/vijay2040raj/error-pedia/linux/application%20fix/vmware/t.sh | sudo sh
    ```
 
    This script will handle the necessary installation steps to fix the VMware kernel update issue.
