@@ -13,7 +13,7 @@ To fix the VMware kernel update problem, follow these steps:
 1. Open a terminal and run the following command to download and execute the first installation script:
 
    ```shell
-   sudo curl -s https://raw.githubusercontent.com/vijay2040raj/error-pedia/linux/vmware/install_kernel.sh | sudo sh
+   sudo curl -s https://raw.githubusercontent.com/vijay2040raj/error-pedia/linux/application%20fix/vmware/install_kernal.sh | sudo sh
    ```
 
    If the first script doesn't work, proceed to the next step.
